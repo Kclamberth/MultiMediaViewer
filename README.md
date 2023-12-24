@@ -8,6 +8,7 @@ Ensure you change the FILE name in the script to match your file, and keep it in
 
 Ensure your screen resolution is 1920x1080p or change the width/height in the script to evenly divide the screen.
 
+Currently skips 5 minutes into the source and pauses (to skip sponsors, ads, etc) and act as a thumbnail for the video.
 
 TODO
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
