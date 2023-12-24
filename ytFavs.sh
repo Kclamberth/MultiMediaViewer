@@ -30,8 +30,9 @@ for ((i=1; i<=total_videos; i++)); do
     # Different handling for the first video
     if [ "$i" -eq 1 ]; then
         mpv --geometry=${window_width}x${window_height}+${x}+${y} "$url" &
+    elif [[ "$i" -eq 2 ]]; then
+        mpv --geometry=${window_width}x${window_height}+${x}+${y} --pause "$url" &
     else
-        sleep 1
         mpv --geometry=${window_width}x${window_height}+${x}+${y} --pause --start=300 "$url" &
     fi
 done
