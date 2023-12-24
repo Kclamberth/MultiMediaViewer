@@ -4,7 +4,10 @@ Leverage MPV and some clever screen manipulation to open multiple sources of med
 
 NOTE
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-Ensure you change the FILE name in the script to match you file, and keep it in the same directory.
+Ensure you change the FILE name in the script to match your file, and keep it in the same directory.
+
+Ensure your screen resolution is 1920x1080p or change the width/height in the script to evenly divide the screen.
+
 
 TODO
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
